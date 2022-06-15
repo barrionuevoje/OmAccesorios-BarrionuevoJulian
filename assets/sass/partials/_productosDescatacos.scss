@@ -1,0 +1,24 @@
+.contendorCartas-productos{
+    @extend .contendorCartas;
+    > .ucard{
+       @extend .card; 
+       > .card__image-imagenes{
+            @extend .card__image;
+        }
+        > .card__content-contenido{
+            @extend .card__content;
+            background: skyblue
+       } 
+
+       > .card__info-informacion{
+            @extend .card__info;
+            >.card__link-enlace{
+                @extend .card__link;
+            }
+       }
+       
+    }
+}
+
+
+
